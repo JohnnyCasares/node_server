@@ -6,7 +6,7 @@ const blogRoutes = require('./routes/blogRoutes');
 //express app
 const app = express();
 //connect to mongoDB
-const uri = "mongodb+srv://nodeTestUser:nodeTest1@nodetest.5luknh0.mongodb.net/nodeTest?retryWrites=true&w=majority";
+const uri = "mongodb link";
 mongoose.connect(uri)
     .then((result) => {
         //listen for requests only after connection is established with database
